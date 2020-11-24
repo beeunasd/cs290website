@@ -1,0 +1,42 @@
+.slick-slide{
+    display: none;
+    float: left;
+    height: auto;
+    min-height: 1px;
+}
+
+.slick-slide img {
+    max-width: 100vw !important; 
+}
+
+.slick-next{
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    right: 120px;
+    color: #BFAFB2;
+}
+.slick-prev{
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    left: 100px;
+    color: #BFAFB2;
+}
+
+.slick-next:before, 
+.slick-prev:before {
+    font-size: 40px;
+}
+
+.slick-dots {
+    bottom: 100px;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}

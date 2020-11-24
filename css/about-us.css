@@ -1,0 +1,76 @@
+main {
+    background: #FFF;
+}
+
+body {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.external {
+    color: blue;
+}
+
+.section {
+    width: 90%;
+    margin: auto;
+}
+
+.section-title {
+    margin: 0;
+    padding: 100px 0 60px 0;
+    /* padding-left: 106px; */
+    font-size: 40px;
+}
+
+.section-sub-title {
+    margin: 0;
+    padding: 60px 0 30px 0;
+    /* padding-left: 106px; */
+    font-size: 30px;
+}
+
+p, section li {
+    font-size: 20px;
+    line-height: 1.8;
+    /* letter-spacing: 1; */
+}
+
+.form-input {
+    width: 50%;
+}
+
+input {
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+    outline: none;
+}
+
+button {
+    padding: 17px 38px;
+    margin: 20px 0;
+    background: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ddd;
+    color: black;
+}
+
+.scroll-box {
+    width: 300px;
+    height: 200px;
+    background: black;
+    color: white;
+    overflow: auto;
+}
+
+.subscribe {
+    padding-bottom: 100px;
+}
